@@ -14,10 +14,14 @@
     text-decoration: none;
     color: #172B4D;
 }
+.listicons {
+    margin-left: 5rem;
+}
 .listicons li{
     list-style-type: none;
-    margin-left: 3rem;
+    margin: 10px;
 }
+
 .text {
     margin-left: 15rem;
     margin-top: 5rem;
@@ -36,13 +40,13 @@
 
 .imatext p {
     color: #172B4D;
-    text-align: center;
     font-size: 18px;
     width: 520px;
 }
 .ima img {
-    height: 50rem;
-    margin-left: 19rem;
+    height: 55rem;
+    margin-left: 15rem;
+    margin-top:-7rem;
 }
 .btn {
     background-color: #EBF0EE;
@@ -56,7 +60,7 @@
     border-radius: 0px 20px 0px 20px;
     box-shadow: 10px 5px 5px rgb(171, 167, 167);
     color: white;
-    border: none;
+    border: 1px solid black;
     margin-left: 3rem;
 }
 #btncv:hover {
@@ -70,9 +74,11 @@
 }
 .fleche {
     width: 2rem;
+    margin-left: 45rem;
+    margin-top: -3rem;
 }
-.fleche {
-  margin-left: 45rem;
+#sectrois h1 {
+    color: #172B4D;
 }
 
 #divtrois {
@@ -162,6 +168,18 @@
     width: 25rem;
     background-color: #EBF0EE;
 }
+#ic1 h2 {
+    color: #172B4D;
+}
+#ic2 h2 {
+    color: #172B4D;
+}
+#ic3 h2 {
+    color: #172B4D;
+}
+.titext2 {
+    color: #172B4D;
+}
 #ic2 {
     border: 1px solid rgb(184, 207, 202);
     margin-left: 4rem;
@@ -182,6 +200,10 @@
     width:435px;
     margin: 10px;
     margin-left: -1px;
+    margin-bottom: -1px;
+}
+#fullname {
+    display: none;
 }
 
 
@@ -217,7 +239,9 @@ input:focus, textarea:focus {
     border-color: #FF6B00 !important;
 
 }
-
+.contatext {
+    color: #172B4D;
+}
 /* RESPONSIVITÉ */
 
 @media screen and (max-width: 375px) {
@@ -226,35 +250,33 @@ input:focus, textarea:focus {
   }
   .imatext {
     flex-direction: column;
-    margin-left: 20rem;
   }
+
   #tit1 {
-    font-size: 46px;
-    white-space: pre-wrap;
+    font-size: 75px;
     text-align: center;
   }
   #tit2 {
-    font-size: 40px;
-    white-space: pre-wrap;
+    font-size: 75px;
     text-align: center;
   }
-  .listicons {
-    margin-left: -10rem;
-  }
+
   .listicons svg {
     width: 50px;
     height: 50px;
+    margin-left: 4rem;
   }
   .imatext p {
+    margin-right: -5rem;
+    font-size: 50px;
+    width: 70rem;
     text-align: center;
-    margin-left: -8rem;
-    font-size: 40px;
   }
   #btncv {
     display: none;
   }
   .ima img {
-    margin-left: 2rem;
+    margin-left: 35rem;
   }
   .fleche {
    display: none;
@@ -272,7 +294,8 @@ input:focus, textarea:focus {
   }
   #im1 {
     width: 100%;
-    height: 76rem;
+    height: 90rem;
+    border: none;
   }
   #im1 img {
     width: 79rem;
@@ -281,6 +304,7 @@ input:focus, textarea:focus {
     width: 100%;
     margin-top: 3rem;
     height: 76rem;
+    border: none;
   }
   #im2 img {
     width: 79rem;
@@ -291,6 +315,7 @@ input:focus, textarea:focus {
     height: 76rem;
     margin-top: 3rem;
     margin-right: -5px !important;
+    border: none;
   }
   #im3 img {
     width: 79rem;
@@ -300,6 +325,7 @@ input:focus, textarea:focus {
     width: 90%;
     height: 76rem;
     margin-top: 3rem;
+    border: none;
   }
   #im11 img {
     width: 80rem;
@@ -309,6 +335,8 @@ input:focus, textarea:focus {
     width: 90%;
     height: 76rem;
     margin-top: 3rem;
+    border: none;
+
   }
   #im22 img {
     width: 80rem;
@@ -319,17 +347,30 @@ input:focus, textarea:focus {
     height: 76rem;
     margin-top: 3rem;
     margin-right: -5px !important;
+    border: none;
+
   }
   #im33 img {
     width: 80rem;
     height: 45rem;
 }
+.BTN {
+    margin-top: 3rem;
+}
+#titmg {
+    margin-top: 3rem;
+    font-size: 60px;
+}
+#see {
+    margin-top: 2rem;
+    font-size: 55px !important;
+}
 
 .titext2 {
-    font-size: 60px !important;
+    font-size: 80px !important;
 }
 .ptext2 {
-    font-size: 30px !important;
+    font-size: 55px !important;
 }
 .six {
     flex-direction: column;
@@ -350,10 +391,12 @@ input:focus, textarea:focus {
     font-size: 35px;
 }
 #ptitbtn {
-    font-size: 30px;
+    font-size: 40px;
+    margin: 5px;
 }
 #ptitb {
-    font-size: 30px;
+    font-size: 40px;
+    margin: 5px;
 }
  
 #ic2 {
@@ -371,10 +414,14 @@ input:focus, textarea:focus {
 }
 
 .Cont {
-    font-size: 70px !important;
+    font-size: 90px !important;
 }
 .alw {
-    font-size: 60px;
+    font-size: 80px;
+    text-align: center;
+}
+.contatext {
+    margin-bottom: 5rem;
 }
 .lname {
     display: none;
@@ -382,14 +429,45 @@ input:focus, textarea:focus {
 #firstname {
     display: none;
 }
+
 #fullname {
-    visibility: visible;
+    display: block;
     margin-bottom: 1rem;
+    height: 5rem !important;
+    font-size: 30px;
+    
+}
+#emailAddress {
+    height: 5rem !important;
+    font-size: 30px;
+}
+#comment {
+    height: 12rem !important;
+    font-size: 30px;
 }
 .input {
     width: 90%;
 }
 #getouch {
     margin-left: 35rem;
+    font-size: 45px !important;
+    height: 5rem;
 }
+.mail h3{
+    font-size: 40px;
+}
+.six svg {
+    height: 220px;
+    width: 220px;
+}
+#ic1 h2 {
+    font-size: 40px;
+}
+#ic2 h2 {
+    font-size: 40px;
+}
+#ic3 h2 {
+    font-size: 40px;
+}
+
   }
